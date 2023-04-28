@@ -1,0 +1,13 @@
+/*CHARIT LA5BAR*/
+marquee{
+ float: left;/*TA7AROK NTA3 TEXT MN L YASAR ll yamin*/
+ background-image: linear-gradient(125deg,#37afe2,#37afe2,#27ae60,#2980b9);/**/
+ box-shadow: 1px 1px 10px black;/*YDIR DAL LL7AWIA NTA3 TEXT */
+ font-size: 17px;/*YRAD 7AJM L5AT 17PX*/
+ padding: 24px;/*YDIR HAMCH DA5ILI B9IMT 24PX*/
+ font-family: 'Amiri',serif;/*NTA3 L5AT*/
+ cursor: wait;/* YTBDL L MAWS KI YT7AT FOGO */
+
+}
+
+

@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;/*l5at nta3 sit kaml*/
+
+}
+.container{
+	background-image: linear-gradient(125deg,#2c3e50,#27ae60,#37afe2,#2980b9,#37afe2);
+	 animation: bganimation 15s infinite;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+   width: 100%;
+   overflow: hidden;
+
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+}
+.logo{
+	width: 100px;
+}
+
+
+
+
+/*les botonne lfo9aniin*/
+ul li{
+	display: inline-block;
+}
+ul li a {
+
+  padding: 10px 15px;
+  color: wheat;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 15px;
+}
+ul li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(125deg,gold,skyblue);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s;
+}
+ul li:hover {
+  transform: translateY(-5px);
+}
+ul li:hover::after {
+  transform: scaleX(1);
+}
+ul li.active::after {
+  transform: scaleX(1);
+}
+
+
+
+
+.content{
+	display: flex;
+	justify-content: space-between;
+	align-items: 80%;
+	margin: 20px 30px;
+}
+.content .text{
+	width: 40%;
+}
+.content .text h2{
+	font-size: 37px;
+	text-transform: uppercase;
+}
+.content .text p{
+	font-size: 18px;
+	margin: 20px 30px;
+
+}
+.content .text a{
+	text-decoration: none;
+	background: lightgoldenrodyellow;
+	padding: 8px 50px;
+	border-radius: 20px;
+		margin: 20px 100px;
+
+}
+.content .image{
+	width: 30%;
+}
+.content .image img{
+	width: 285px;
+	height: 420px;
+}
+
+
+
+
+
+
+/*CHARIT LA5BAR*/
+marquee{
+ float: right;/*TA7AROK NTA3 TEXT MN LYAMIN LL YASAR*/
+ background-image: linear-gradient(125deg,#37afe2,#37afe2,#27ae60,#2980b9);/**/
+ box-shadow: 1px 1px 10px black;/*YDIR DAL LL7AWIA NTA3 TEXT */
+ font-size: 17px;/*YRAD 7AJM L5AT 17PX*/
+ padding: 24px;/*YDIR HAMCH DA5ILI B9IMT 24PX*/
+ font-family: 'Amiri',serif;/*NTA3 L5AT*/
+ cursor: wait;/* YTBDL L MAWS KI YT7AT FOGO */
+
+}
+
+/*TA3 LED*/
+body{
+   font-family: "poppins",sans-serif;/*  NTA3 L5AT */
+   display: flex;/*  5ASYAT L3ARD L3ONSOR */
+   justify-content: center;/* YDIR LMO7TAWA OFO9IYA DA5L L3ONSOR   */
+   align-items: center;/* YDIR LMO7TAWA 3AMODIA DA5L L3ONSOR   */
+   min-height: 100vh;/* LIRTIFA3 LADNA LI 3ONSOR  */
+}
+h1{  /*30NSOR*/
+   font-size: 2.5em;/*Y7ADED 7AJM L5AT MO3ADEL 2.5EM 9BAL MAKAN 3LIH*/
+   font-weight: 500;/*Y5ADED L7AJM  NTA3 L5AT (500  HWA LMATWASET) */
+   color: black;/*Y7ADED LAWN NTA3 NAS L RAMADI GAM9*/
+   letter-spacing: 5px;/*YDIR TBA3ED BIN LA7REF*/
+   cursor: pointer;/*YBADL CHAKL L CORSER MN SAHM L CHAKL NTA3 LYAD KI N7TOH FOG LKTIBA*/
+   text-transform: uppercase ;/*Y7AWL NAS LA7REF KBIRA*/
+   transition: 0.5s ;/*ki ndiro l corser fog lktiba ydir t7wil llawn*/
+}
+h1:hover{
+   color: #fff;/*LAWN NTA3 NAS KI YTOCHIH L MAWS*/
+   text-shadow: 0 0 5px ,/**/
+   0 0 25px #313335,/*YDIR DAL DAKN B3ARD 25PX*/
+   0 0 50px #37afe2,/*YDIR DAL DAKN B3ARD 50PX CLAR ZARGA*/
+   0 0 100px #313335;/*YDIR DAL DAKN B3ARD 100PX KOLAR KA7LA*/
+}
+h2{  /*30NSOR*/
+   font-size: 2.5em;/*Y7ADED 7AJM L5AT MO3ADEL 2.5EM 9BAL MAKAN 3LIH*/
+   font-weight: 500;/*Y5ADED L7AJM  NTA3 L5AT (500  HWA LMATWASET) */
+   color: black;/*Y7ADED LAWN NTA3 NAS L RAMADI GAM9*/
+   letter-spacing: 5px;/*YDIR TBA3ED BIN LA7REF*/
+   cursor: pointer;/*YBADL CHAKL L CORSER MN SAHM L CHAKL NTA3 LYAD KI N7TOH FOG LKTIBA*/
+   text-transform: uppercase ;/*Y7AWL NAS LA7REF KBIRA*/
+   transition: 0.5s ;/*ki ndiro l corser fog lktiba ydir t7wil llawn*/
+}
+h2:hover{
+   color: #fff;/*LAWN NTA3 NAS KI YTOCHIH L MAWS*/
+   text-shadow: 0 0 5px ,/**/
+   0 0 25px #313335,/*YDIR DAL DAKN B3ARD 25PX*/
+   0 0 50px #37afe2,/*YDIR DAL DAKN B3ARD 50PX CLAR ZARGA*/
+   0 0 100px #313335;/*YDIR DAL DAKN B3ARD 100PX KOLAR KA7LA*/
+}
+
+
+
+
+
+
+

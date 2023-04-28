@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>  Phone Specifications </title>
+      <link rel="sharicut icon" type="image/x-icon" href="images/11111.png">
+      <link rel="stylesheet" type="text/css" href="22.css">
+      <link rel="stylesheet" type="text/css" href="222.css">
+      <link rel="stylesheet" type="text/css" href="2222.css">
+      <link rel="stylesheet" type="text/css" href="22222.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   </head>
+
+    <style type="text/css" src="22.css">
+      @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+      h1{margin:80px 0 0 0;}
+    </style>
+   <body>   
+      
+      <div>  
+         <h1>PHONE SPECIFICATIONS DZ</h1>
+      </div>
+      <br><br>
+      <center>
+         <label for="phone-select">Select Phone:</label>
+         <select id="phone-select" onchange="displayPhoneDetails()">
+          <option value="">Select a phone</option>  
+   <optgroup label="Apple"> 
+    <option value="iPhone 14 Pro Max">iPhone 14 Pro Max</option>
+       <option value="iPhone 14 pro">iPhone 14 pro</option>
+          <option value="iPhone 14">iPhone 14</option>
+             <option value="iPhone 13 Pro Max">iPhone 13 Pro Max</option>
+                <option value="iPhone 13 Pro">iPhone 13 Pro</option>
+                   <option value="iPhone 13">iPhone 13</option>
+                      <option value="iPhone 13 mini">iPhone 13 mini</option>
+                         <option value="iPhone 12 Pro Max">iPhone 12 Pro Max</option>
+                            <option value="iPhone 12 Pro">iPhone 12 Pro</option>
+                               <option value="iPhone 12 mini">iPhone 12 mini</option>
+                                  <option value="iPhone 12">iPhone 12 </option>
+                                     <option value="iPhone SE (2nd generation)">iPhone SE (2nd generation)</option>
+                                        <option value="iPhone 11 Pro Max">iPhone 11 Pro Max </option>
+                                           <option value="iPhone 11 Pro">iPhone 11 Pro</option>
+                                              <option value="iPhone 11">iPhone 11</option>
+                                                 <option value="iPhone XS Max">iPhone XS Max</option>
+                                                    <option value="iPhone XS">iPhone XS </option>
+                                                       <option value="iPhone XR">iPhone XR </option>
+                                                          <option value="iPhone X">iPhone X </option>
+                                                             <option value="iPhone 8 Plus">iPhone 8 Plus</option>
+                                                                <option value="iPhone 8">iPhone 8 </option>
+   </optgroup>  
+   <optgroup label="Samsung">
+    <option value="Galaxy S7">Galaxy S7</option>
+       <option value="Galaxy S7 Edge">Galaxy S7 Edge</option>
+          <option value="Galaxy S8">Galaxy S8</option>
+             <option value="Galaxy S8 Plus">Galaxy S8 Plus</option>
+                <option value="Galaxy S9">Galaxy S9</option>
+                   <option value="Galaxy S9 Plus">Galaxy S9 Plus</option>
+                      <option value="Galaxy Note 8">Galaxy Note 8</option>
+                         <option value="Galaxy Note 9">Galaxy Note 9</option>
+                            <option value="Galaxy S10">Galaxy S10</option>
+                               <option value="Galaxy S10 Plus">Galaxy S10 Plus</option>
+                                  <option value="Galaxy Note 10">Galaxy Note 10</option>
+                                     <option value="Galaxy S20">Galaxy S20</option>
+                                        <option value="Galaxy S20 Plus">Galaxy S20 Plus</option>
+                                           <option value="Galaxy S20 Ultra">Galaxy S20 Ultra</option>
+                                              <option value="Galaxy Note 20">Galaxy Note 20</option>
+                                                 <option value="Galaxy S21">Galaxy S21</option>
+                                                    <option value="Galaxy S21 Plus">Galaxy S21 Plus</option>
+                                                       <option value="Galaxy S21 Ultra">Galaxy S21 Ultra</option>
+  </optgroup>
+  <optgroup label="Redmi">
+    <option value="Redmi Note 10">Redmi Note 10</option>
+       <option value="Redmi Note 10 Pro">Redmi Note 10 Pro</option>
+          <option value="Redmi Note 10S">Redmi Note 10S</option>
+             <option value="Redmi Note 9">Redmi Note 9</option>
+                <option value="Redmi Note 9S">Redmi Note 9S</option>
+                   <option value="Redmi Note 9 Pro">Redmi Note 9 Pro</option>
+                       <option value="Redmi Note 9 Pro Max">Redmi Note 9 Pro Max</option>
+                         <option value="Redmi 9">Redmi 9</option>
+                            <option value="Redmi 9 Prime">Redmi 9 Prime</option>
+                               <option value="Redmi 9A">Redmi 9A</option>
+                                  <option value="Redmi 9i">Redmi 9i</option>
+                                     <option value="Redmi 9 Power">Redmi 9 Power</option>
+                                        <option value="Redmi 10 Prime">Redmi 10 Prime</option>
+                                           <option value="Redmi 10">Redmi 10</option>
+  </optgroup>
+  <optgroup label="Realme">
+    <option value="Realme 7">Realme 7</option>
+       <option value="Realme 7i">Realme 7i</option>
+          <option value="Realme 7 Pro">Realme 7 Pro</option>
+             <option value="Realme 8">Realme 8</option>
+                <option value="Realme 8 Pro">Realme 8 Pro</option>
+                   <option value="Realme Narzo 30 Pro">Realme Narzo 30 Pro</option>
+                      <option value="Realme Narzo 30A">Realme Narzo 30A</option>
+                         <option value="Realme C11">Realme C11</option>
+                            <option value="Realme C12">Realme C12</option>
+                               <option value="Realme C15">Realme C15</option>
+                                  <option value="Realme C25">Realme C25</option>
+                                     <option value="Realme GT">Realme GT</option>
+                                        <option value="Realme GT Master Edition">Realme GT Master Edition</option>
+</optgroup>
+<optgroup label="Poco">
+    <option value="Poco X3 Pro">Poco X3 Pro</option>
+       <option value="Poco X3 GT">Poco X3 GT</option>
+          <option value="Poco M3 Pro 5G">Poco M3 Pro 5G</option>
+             <option value="Poco F3">Poco F3</option>
+                <option value="Poco F3 GT">Poco F3 GT</option>
+                   <option value="Poco X2">Poco X2</option>
+                      <option value="Poco X3 NFC">Poco X3 NFC</option>
+</optgroup>
+<optgroup label="Infinix">
+    <option value="Infinix Hot 10">Infinix Hot 10</option>
+       <option value="Infinix Note 10 Pro">Infinix Note 10 Pro</option>
+          <option value="Infinix Zero 8">Infinix Zero 8</option>
+             <option value="Infinix Smart 5">Infinix Smart 5</option>
+                <option value="Infinix Note 8">Infinix Note 8</option>
+                   <option value="Infinix S5 Pro">Infinix S5 Pro</option>
+                      <option value="Infinix Hot 8">Infinix Hot 8</option>
+</optgroup>
+<optgroup label="Oppo">
+    <option value="Oppo Reno 5">Oppo Reno 5</option>
+       <option value="Oppo A53">Oppo A53</option>
+          <option value="Oppo A74">Oppo A74</option>
+             <option value="Oppo F19 Pro">Oppo F19 Pro</option>
+                <option value="Oppo F19">Oppo F19</option>
+                   <option value="Oppo Reno 3 Pro">Oppo Reno 3 Pro</option>
+                      <option value="Oppo A5 2020">Oppo A5 2020</option>
+
+</optgroup>
+<optgroup label="Huawei">
+    <option value="Huawei P40 Pro">Huawei P40 Pro</option>
+       <option value="Huawei Mate 40 Pro">Huawei Mate 40 Pro</option>
+          <option value="Huawei Nova 7i">Huawei Nova 7i</option>
+            <option value="Huawei P30 Pro">Huawei P30 Pro</option>
+                <option value="Huawei Y9 Prime">Huawei Y9 Prime</option>
+                   <option value="Huawei Mate 30 Pro">Huawei Mate 30 Pro</option>
+                      <option value="Huawei P Smart 2021">Huawei P Smart 2021</option>
+   </optgroup>
+ 
+</select>
+
+      
+      </center>
+      <br><br>
+      <table id="phone-details">
+         <tr>
+            <th>Screen Quality</th>
+            <td id="screen-quality"></td>
+         </tr>
+         <tr>
+            <th>Screen Dimensions</th>
+            <td id="screen-dimensions"></td>
+         </tr>
+         <tr>
+            <th>Processor</th>
+            <td id="processor"</td>
+         </tr>
+         <tr>
+            <th>RAM</th>
+            <td id="ram"></td>
+         </tr>
+         <tr>
+            <th>Storage</th>
+            <td id="storage"></td>
+         </tr>
+         <tr>
+            <th>Camera</th>
+            <td id="camera"></td>
+         </tr>
+         <tr>
+            <th>Battery</th>
+            <td id="battery"></td>
+         </tr>
+         <tr>
+            <th>Colors Available</th>
+            <td id="colors"></td>
+         </tr>
+         <tr>
+            <th>Price in Algeria</th>
+            <td id="price"></td>
+         </tr>
+         <tr>
+            <th>Other Specifications</th>
+            <td id="specs"></td>
+         </tr>
+       <tr>
+            <th>Video Review</th>
+            <td id="Video Review"></td>
+         </tr>
+        
+      </table>
+      <br>
+
+        <div class="content">
+         <div class="text">
+<a href="file:///C:/Users/hi/Desktop/daw%20pr/2.html"> HOME</a>
+</div>
+</div>
+
+       <marquee behavior="" direction="right" onmouseover="this.stop()" onmouseout="this.start()">"Google has officially launched its highly anticipated Pixel 6 and Pixel 6 Pro smartphones, boasting advanced features such as custom Tensor processors and improved camera systems. Meanwhile, Xiaomi has announced the release of its latest flagship device, the Mi 12, which is expected to be one of the first phones to feature Qualcomm's new Snapdragon 8 Gen 1 chipset. Additionally, rumors are circulating that Samsung is planning to release a foldable smartphone with a tri-folding design, set to rival Huawei's Mate X2 and Xiaomi's Mi Mix Fold."</marquee>
+
+     
+     <script type="text/javascript" src="333.js"></script>
+   </body>
+</html>
+
+
+
+
+
+
+
+   
+

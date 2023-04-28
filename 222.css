@@ -1,0 +1,24 @@
+
+body{
+   font-family: "poppins",sans-serif;/*  NTA3 L5AT */
+   display: flex;/*  5ASYAT L3ARD L3ONSOR */
+   justify-content: center;/* YDIR LMO7TAWA OFO9IYA DA5L L3ONSOR   */
+   align-items: center;/* YDIR LMO7TAWA 3AMODIA DA5L L3ONSOR   */
+   min-height: 100vh;/* LIRTIFA3 LADNA LI 3ONSOR  */
+}
+h1{  /*30NSOR*/
+   font-size: 2.5em;/*Y7ADED 7AJM L5AT MO3ADEL 2.5EM 9BAL MAKAN 3LIH*/
+   font-weight: 500;/*Y5ADED L7AJM  NTA3 L5AT (500  HWA LMATWASET) */
+   color: #313335;/*Y7ADED LAWN NTA3 NAS L RAMADI GAM9*/
+   letter-spacing: 5px;/*YDIR TBA3ED BIN LA7REF*/
+   cursor: pointer;/*YBADL CHAKL L CORSER MN SAHM L CHAKL NTA3 LYAD KI N7TOH FOG LKTIBA*/
+   text-transform: uppercase ;/*Y7AWL NAS LA7REF KBIRA*/
+   transition: 0.5s ;/*ki ndiro l corser fog lktiba ydir t7wil llawn*/
+}
+h1:hover{
+   color: #black;/*LAWN NTA3 NAS KI YTOCHIH L MAWS*/
+   text-shadow: 0 0 5px ,/**/
+   0 0 25px #313335,/*YDIR DAL DAKN B3ARD 25PX*/
+   0 0 50px #37afe2,/*YDIR DAL DAKN B3ARD 50PX CLAR ZARGA*/
+   0 0 100px #313335;/*YDIR DAL DAKN B3ARD 100PX KOLAR KA7LA*/
+}

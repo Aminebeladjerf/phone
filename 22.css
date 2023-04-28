@@ -1,0 +1,69 @@
+body{
+   margin:0;/*  YRAD L 0 BAH YNAHI LHAWAMCH WTABA3OD   */
+   padding:0;/*  YRAD L 0 BAH YNAHI LHAWAMCH WTABA3OD   */
+   background-image: linear-gradient(125deg,#2c3e50,#27ae60,#37afe2,#2980b9,#37afe2);/* 5ALFAYAT TADAROJ FL ALWAN 5 COLARAT */
+   background-size: 400%,400%;/* 7AJM L5ALFIA  LTAKBIR L5ALFIA*/
+   animation: bganimation 15s infinite;/* LTA7RIK 5LFIYAT SAF7A */
+   background-repeat: no-repeat;/*LMAN3 TIKRAR L5ALFIA*/
+   background-size: cover;
+   display: flex;/*LTAWJIH L3ANASR BCHAKL 3AMODI WTAWSITHA*/
+   flex-direction: column ;
+   justify-content: center;
+   align-items: center;
+   font-family: 'permanent marker', cursive;/*NTA3 NAW3AYT L5AT */
+   color: #313335;/*LAWN NAS*/
+}
+
+   select{/*L9AIMA LMONDADILA L7AJM NTA3HA WLAWN ...*/
+      width:60%;
+      height: 2em;
+      outline:0;
+      border:0!important ;
+      background: #27ae60;
+      background-image: none;
+   }
+    .select{
+      position: relative;
+      width:20em;
+      height: 3em;
+      line-height: #5c6664;
+      overflow: hidden;
+      border-radius:.25em ;
+    }
+    select{
+      flex: 1;
+      padding: 0 .5em;
+      color: #fff;
+      cursor:pointer;
+    }
+    .select::after{
+       content: '\258c';
+       position: absolute;
+       top: 0;
+       right: 0;
+    }
+   
+h1 {
+   text-align: center;/*NTA3 PHONE SPISIFICATION*/
+}
+label {
+   font-weight: bold;/*L5AT LI N3AMRO BIH TABLO*/
+}
+
+table {
+   margin-top: 20px;
+   margin-bottom: 150px;
+   border-collapse: collapse;
+   width: 600px;
+   height: 1400px;
+}
+
+th, td {
+   padding: 10px;
+   text-align: left;
+   border: 2px solid #306eff;
+}
+
+
+
+
